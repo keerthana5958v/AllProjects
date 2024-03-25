@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signIn.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+<body>
+    <section class="head-wrap">
+        <h3>Sign In</h3>
+        <div class="container">
+            <div class="tag-holder">
+                <div class="user-icon-image"></div>
+                <input type="text" name="name" id="name" placeholder="name">
+            </div>
+            <div class="tag-holder">
+                <div class="user-icon-image"></div>
+                <input type="text" name="password" id="password" placeholder="password">
+                <div id="eye-button1"></div>
+            </div>
+            <div class="tag-holder">
+                <div class="user-icon-image"></div>
+                <input type="text" name="password" id="re-password" placeholder="re-enter password">
+                <div id="eye-button2" ></div>
+            </div>
+        </div>
+        <button type="button" onclick="signup()">Sign In</button>
+    </section>
+    <script src="signIn.js"></script>
+
+</body>
+</html>
